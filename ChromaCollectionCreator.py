@@ -59,7 +59,7 @@ class ChromaCollectionCreator:
         # Step 2: Split documents into text chunks
         # Use a TextSplitter from Langchain to split the documents into smaller text chunks
         # https://python.langchain.com/docs/modules/data_connection/document_transformers/character_text_splitter
-        # [Your code here for splitting documents]
+        
         
         text_splitter = CharacterTextSplitter(  separator="\n",
                                                 chunk_size=1000,
